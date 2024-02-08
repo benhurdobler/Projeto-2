@@ -1,0 +1,155 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.button-sign-up{
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    border:none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    cursor:pointer;
+
+
+}
+
+.links-header{
+    color: #17233D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+    cursor:pointer;
+    letter-spacing: 0.875px;
+    
+}
+
+header{
+    margin: 20px 0 80px 42px;
+    
+}
+
+img{
+    width: 460px;
+    height: 350.005px;
+    margin-left: 80px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 80px;
+    
+
+}
+
+h1{
+    width: 502px;
+    color: #161A49;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+p{
+    color: #4B505A;
+    width: 493px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 19px;
+    letter-spacing: 0.5px;
+}
+
+.learn-more{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    cursor:pointer;
+
+}
+
+@media (max-width:600px){
+    .links-header{
+        display: none;
+    }
+
+    h1{
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        position: relative;
+        bottom: 430px;
+        margin-left: 45px;
+        
+    }
+
+    section{
+        display:block;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top:120px;
+        width: 100vw;
+        height: 50vh;
+        align-items: center;
+    }
+
+    main{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+    img{
+        display: block;
+        position: relative;
+        top:450px;
+        right:50px;
+    }
+
+    p{
+        width: 300px;
+        
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        position: relative;
+        bottom: 390px;
+        left:30px;
+        padding: 5px;
+    }
+
+    .learn-more{
+        font-size: 18px;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 360px;
+    right: 20px;
+    text-align: center;
+        
+    
+    }
+    .button-sign-up{
+        width: 90px;
+        height: 40px;
+        font-size: 12px;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-left: 320px;
+        border-radius: 6px;
+}
+
+
+}
